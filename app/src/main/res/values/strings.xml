@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PokeApp</string>
+
+    <string name="nombre">Escribe tu nombre:</string>
+
+    <string name="aceptar">Aceptar</string>
+
+</resources>
