@@ -5,4 +5,8 @@
 
     <string name="aceptar">Aceptar</string>
 
+    <string name="on">ON</string>
+
+    <string name="off">OFF</string>
+
 </resources>

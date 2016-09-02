@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/lytContenedor"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <TextView android:id="@+id/lblNombre"
         android:layout_width="wrap_content"
@@ -15,9 +16,21 @@
         android:layout_height="wrap_content"
         android:inputType="text" />
 
-        <Button android:id="@+id/btnAceptar"
+    <Button android:id="@+id/btnAceptar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/aceptar" />
+
+    <ToggleButton android:id="@+id/BtnToggle"
+        android:textOn="@string/on"
+        android:textOff="@string/off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Switch android:id="@+id/BtnSwitch"
+        android:textOn="@string/on"
+        android:textOff="@string/off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
